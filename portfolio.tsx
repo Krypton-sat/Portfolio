@@ -15,7 +15,10 @@ import {
   Send,
   Menu,
   X,
+  Instagram,
+  
 } from "lucide-react";
+import { FaTelegram } from "react-icons/fa";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -91,7 +94,7 @@ const PROJECTS = [
 const SOCIALS = [
   { icon: Github, href: "https://github.com/Krypton-sat", label: "GitHub" },
   { icon: Linkedin, href: "", label: "LinkedIn" },
-  { icon: Twitter, href: "", label: "Twitter" },
+  { icon: FaTelegram, href: "https://t.me/KryptonSat", label: "Twitter" },
   { icon: Mail, href: "https://mail.google.com/mail/?view=cm&to=ashenakiyan@gmail.com", label: "Email" },
 ];
 
@@ -163,10 +166,10 @@ function TerminalLine({
 function TypingTerminal() {
   const lines = [
     "whoami",
-    "├── name: Kiyan",
+    "├── name: Kiyan Ashena",
     "├── role: Software Developer",
     "├── focus: Full-stack systems,  Cybersecurity",
-    "└── status: building cool things ✨",
+    "└── status: building cool things",
     "cat skills.txt",
     "├── JavaScript · vite · React",
     "├── Python · Django · REST API ",
